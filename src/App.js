@@ -14,14 +14,12 @@ function App() {
     <Router>
       <div className="app-container">
         <h1>🎬 Movie Feedback App</h1>
-        <div className="navs">
-        <nav className="nav-link">
-          <Link to="/feedback">Give Feedback</Link>
-         </nav>
-          <nav className="nav-link">
-          <Link to="/reviews">View Reviews</Link>
+       
+        <nav className="nav">
+          <Link to="/feedback" className="nav-link">Give Feedback</Link>
+          <Link to="/reviews" className="nav-link">View Reviews</Link>
         </nav>
-        </div>
+        
         <Routes>
           <Route path="/" element={<Navigate to="/feedback" />} />
           <Route path="/feedback" element={<FeedbackForm />} />

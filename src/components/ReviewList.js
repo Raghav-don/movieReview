@@ -17,7 +17,7 @@ const ReviewList = () => {
         <ul>
           {reviews.map((review, index) => (
             <li key={index} className="review-card">
-              <strong>{review.Username}</strong> reviewed <em>{review.movie}</em>
+              <strong>{review.name}</strong> reviewed <em>{review.movie}</em>
               <br />
               <br />⭐ Rating: {review.rating}/5
               <br />
