@@ -37,6 +37,26 @@ const FeedbackForm = () => {
         <option value="Inception">Inception</option>
         <option value="Interstellar">Interstellar</option>
         <option value="The Dark Knight">The Dark Knight</option>
+        <option value="Titanic">Titanic</option>
+        <option value="Mankatha">Mankatha</option>
+        <option value="Thug Life">Thug Life</option>
+        <option value="Indian 2">Indian 2</option>
+        <option value="Pushpa 2">Pushpa 2</option>
+        <option value="Annathe">Annathe</option>
+        <option value="GOAT">GOAT</option>
+        <option value="Vettaiyan">Vettaiyan</option>
+        <option value="Laal salaam">Laal salaam</option>
+        <option value="Thunivu">Thunivu</option>
+        <option value="Varisu">Varisu</option>
+        <option value="Beast">Beast</option>
+        <option value="Bigil">Bigil</option>
+        <option value="Sura">Sura</option>
+        <option value="Puli">Puli</option>
+        <option value="Kanguva">Kanguva</option>
+
+        
+
+
       </select>
        <br />
        <br />
